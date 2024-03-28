@@ -1,0 +1,32 @@
+.completed-activities{
+    display: flex;
+    flex-direction: column;
+    color: #676666;
+    gap: 1em;
+}
+.completed-activities-heading{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: #000000;
+}
+.view-all-span{
+    color: #111111;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+.activity-container-div{
+    border: 1px solid #CBCBCB;
+    border-radius: 0.25rem;
+}
+.activity-div{
+    font-size: 0.75rem;
+    padding: 0.6rem 1.25rem;
+    border-bottom: 1px solid #CBCBCB;
+}
+.activity-container-div:last-of-type{
+    border-bottom: none;
+}

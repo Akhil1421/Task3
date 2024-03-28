@@ -1,0 +1,45 @@
+.quick-action-div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    margin-top: 0.2em;
+}
+.quick-action-div span{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.quick-action-row{
+    display: flex;
+    width: calc(100% - 1rem);
+    background-color: #ffffff;
+    padding: 2.5em 1em;
+    font-weight: 500;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+}
+.quick-action{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 1px #CBCBCB;
+}
+.quick-action:last-of-type{
+    border-right: none;
+}
+@media screen  and (max-width: 768px){
+    html{
+        font-size: 12px;
+    }
+    .quick-action-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 540px) {
+    html{
+        font-size: 10px;
+    }
+}

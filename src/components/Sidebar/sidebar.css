@@ -1,0 +1,17 @@
+.sidebar{
+    width: 2%;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    align-items: center;
+    padding: 1em 2em;
+}
+.img{
+    width: auto;
+    margin-top: 1em;
+}
+.ring-icon{
+    margin-bottom: 1em; 
+    margin-top: 1em;
+}
